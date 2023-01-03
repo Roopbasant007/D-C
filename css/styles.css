@@ -1,0 +1,208 @@
+body {
+    font-family: 'Montserrat', sans-serif solid;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 3% 15% 5.5%;
+}
+
+/* heading element */
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif solid;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+
+    font-size: 3.0rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: grey;
+}
+
+
+/* Coloured Section */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Uncoloured Section */
+.uncolored-section {
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+
+
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0px 1rem;
+}
+
+.nav-link {
+    font-family: 'Montserrat-light' sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Title */
+
+#title {
+    text-align: left;
+}
+
+/* Download button */
+
+.download-button {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 7% 5% 0%;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+
+/* Iphone-Markup title-image  */
+
+.iphone-mockup {
+    margin-left: 6%;
+    width: 20%;
+    height: 90%;
+    transform: rotateZ(25deg);
+    position: absolute;
+}
+
+/* Media Query */
+@media (max-width:995px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone-mockup {
+        margin-top: 10%;
+        width: 60%;
+        transform: rotateZ(0deg);
+        position: static;
+    }
+}
+
+/*features */
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    /*we can make the changes in features of html element by keeping the element in the html flow */
+}
+
+.features-box {
+    padding: 5%;
+}
+
+
+.icon {
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials section  */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.carousel-item {
+    padding: 7% 18%;
+}
+
+.testimonial-text {
+    font-family: 'Ubuntu', sans-serif solid;
+    font-size: 3.0rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    height: 10%;
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+/* Press section  */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+
+/* Pricing section  */
+
+#pricing {
+    padding: 100px;
+}
+
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.btn-lg {
+    width: 100%;
+}
+
+
+/* Call to Action */
+
+#cta {
+    padding: 7% 15%;
+}
+
+.cta-text {
+    font-size: 3.0rem;
+    padding: 0% 12%;
+}
+
+/* footer section */
+
+#footer {
+    padding: 3% 0%;
+}
+
+.social-icons {
+    padding: 15px;
+}
